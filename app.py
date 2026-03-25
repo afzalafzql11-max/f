@@ -188,7 +188,7 @@ def upload_child():
 
     name = st.text_input("Name")
     age = st.number_input("Age", 1, 100)
-    place = st.text_input("Place")
+    place = st.text_input("Place and contact details")
 
     img_file = st.file_uploader("Upload Image")
 
